@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<style>
+    .pop_img {
+        width: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <form name="form" class="form" action="#">
+                <div>
+                    <label for="name">Имя</label>
+                    <input required name="firstName" id="name" type="text" />
+                </div>
+                <div>
+                    <label for="age">Возраст</label>
+                    <input required name="age" id="age" type="number" />
+                </div>
+                <button class="btn">Добавить</button>
+            </form>
+        </div>
+
+        <div class="wrapper">
+            <div class="wrap-item">
+                <h2>Люди до 25</h2>
+                <div id="twenty-five" class="item-box">
+
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="wrap-item">
+                <h2>Люди до 50</h2>
+                <div id="fifty" class="item-box">
+
+                </div>
+            </div>
+            <div class="divider"></div>
+
+            <div class="wrap-item">
+                <h2>Остальные</h2>
+                <div id="others" class="item-box">
+
+                </div>
+            </div>
+        </div><!-- 
+    </div><img src="img/edit_black_24dp.svg" alt="">
+     --><!-- <img src="img/edit_black_24dp (1).svg" alt="">
+ -->
+<div class="backgroun_modal">
+        <div class="modal">
+            <form name="forms" class="forms">
+                Name
+                <br>
+                <input type="text" class="name_modal" name="firstName" placeholder="Daler">
+                <br>
+                <br>
+                Age <br>
+                <input type="number" class="age_modal" name="age" placeholder='16'><br>
+                <br>
+                <button class="change">Изменить</button>
+            </form>
+        </div>
+    </div><!-- backgroun_modal -->
+        <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
